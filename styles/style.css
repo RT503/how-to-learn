@@ -55,6 +55,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -211,6 +212,7 @@
   top: 50%;
   right: 48px;
   text-decoration: none;
+  color: #000000;
 }
 
 .feynman__main-illustration {
@@ -281,6 +283,7 @@
 .footer {
   min-height: 350px;
   display: flex;
+  box-sizing: border-box;
   background-color: #1f1f1f;
   color: white;
   padding-top: 60px;
