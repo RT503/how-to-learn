@@ -6,5 +6,6 @@
     position: relative;
     align-items: center;
     display: flex;
+    overflow: hidden;
       /* выше установили ограничения для секции */
   }
