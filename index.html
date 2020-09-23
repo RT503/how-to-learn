@@ -10,7 +10,7 @@
 <body>
   <div class="page">
     <header class="header">
-      <a href="#"><img class="logo logo_place_header" alt='Логотип Яндекс.Практикума' src="images/logo_place_header.svg"></a>
+      <a href="#"><img class="logo logo_place_header" alt="Логотип Яндекс.Практикума" src="images/logo_place_header.svg"></a>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="#" class="header__link">Узнать &rarr;</a>
@@ -64,8 +64,8 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">
@@ -125,12 +125,14 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир - школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="images/khan-book.jpg" alt="Обложка книги">
-            <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
+            <div class="khan__link-container">
+              <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
+            </div>
             </div>
           </div>
       </section>
@@ -184,18 +186,18 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img class="resources__logo" alt="" src="images/resources-arzamas.svg">
-          <img class="resources__logo" alt="" src="images/resources-n1.svg">
-          <img class="resources__logo" alt="" src="images/resources-strelka.svg">
-          <img class="resources__logo" alt="" src="images/resources-polka.svg">
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a href="#" target="_blank" rel="noopener"><img class="resources__logo" alt="Логотип Арзамас" src="images/resources-arzamas.svg"></li></a>
+          <li><a href="#" target="_blank" rel="noopener"><img class="resources__logo" alt="Логотип Н1" src="images/resources-n1.svg"></li></a>
+          <li><a href="#" target="_blank" rel="noopener"><img class="resources__logo" alt="Логотип Стрелка" src="images/resources-strelka.svg"></li></a>
+          <li><a href="#" target="_blank" rel="noopener"><img class="resources__logo" alt="Логотип Полка" src="images/resources-polka.svg"></li></a>
+        </ul>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo_place_footer" alt='Логотип Яндекс Практикума' src="images/logo_place_footer.svg">
+          <img class="logo logo_place_footer" alt="Логотип Яндекс Практикума" src="images/logo_place_footer.svg">
           <p class="footer__author">&copy;2019. Виктор Абанькин</p>
         </div>
         <nav class="footer__column footer__column_content_info">
@@ -209,9 +211,9 @@
         <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
-            <li><a class="footer__column-link" href="#" target="_blank" rel="noopener"><img class="footer__social-icon" alt='Логотип Фэйсбук' src="images/facebook_color_white.svg">Facebook</a></li>
-            <li><a class="footer__column-link" href="#" target="_blank" rel="noopener"><img class="footer__social-icon" alt='Логотип ВКонтакте' src="images/vk_color_white.svg">ВКонтакте</a></li>
-            <li><a class="footer__column-link" href="#" target="_blank" rel="noopener"><img class="footer__social-icon" alt='Логотип Инстаграм' src="images/instagram_color_white.svg">Instagram</a></li>
+            <li><a class="footer__column-link" href="#" target="_blank" rel="noopener"><img class="footer__social-icon" alt="Логотип Фэйсбук" src="images/facebook_color_white.svg">Facebook</a></li>
+            <li><a class="footer__column-link" href="#" target="_blank" rel="noopener"><img class="footer__social-icon" alt="Логотип ВКонтакте" src="images/vk_color_white.svg">ВКонтакте</a></li>
+            <li><a class="footer__column-link" href="#" target="_blank" rel="noopener"><img class="footer__social-icon" alt="Логотип Инстаграм" src="images/instagram_color_white.svg">Instagram</a></li>
           </ul>
         </nav>
       </div>
