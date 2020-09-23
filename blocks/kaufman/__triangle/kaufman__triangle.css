@@ -10,4 +10,5 @@
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: -1;
   }

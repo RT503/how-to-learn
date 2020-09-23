@@ -3,4 +3,9 @@
     text-decoration: none;
     align-items: center;
     color: white;
+    transition: opacity 0.1s linear 0s;
+  }
+
+  .footer__column-link:hover {
+    opacity: 70%;
   }
