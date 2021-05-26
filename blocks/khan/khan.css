@@ -2,3 +2,73 @@
   background-color: #f2f2f2;
   padding-top: 105px;
 }
+
+.khan__container {
+  width: 80%;
+  margin: auto;
+}
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.khan__book-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 68px;
+}
+
+.khan__book-pic {
+  height: 620px;
+  width: 608px;
+  margin-right: 48px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.khan__buy-link {
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  transition: opacity 0.2s ease-out 0s;
+}
+
+.khan__buy-link:hover {
+  opacity: 20%;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 790px;
+  margin-bottom: 36px;
+  margin-left: 0;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+

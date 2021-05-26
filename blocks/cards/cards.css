@@ -4,3 +4,40 @@
     flex-wrap: wrap;
     margin: auto;
 }
+
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.cards__image {
+  height: 160px;
+  width: 160px;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 43px;
+  border-radius: 50%;
+}
+
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin-right: 100px;
+}
+
+.cards__item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}

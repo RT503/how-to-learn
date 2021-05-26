@@ -1,3 +1,21 @@
 .video {
   margin-top: 100px;
 }
+
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 0;
+  bottom: -50px;
+}
+
+.video__iframe {
+  box-sizing: content-box;
+  width: 560px;
+  height: 315px;
+}
+
+.video__iframe:first-of-type {
+  margin-right: 20px;
+}
