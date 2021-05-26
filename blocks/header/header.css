@@ -19,3 +19,41 @@
 .header__link:hover {
   opacity: 50%;
 }
+
+.header__title {
+  width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+  padding-left: 64px;
+  z-index: 2;
+  display: flex;
+}
+
+.header__subtitle {
+  width: 388px;
+  font-size: 18px;
+  line-height: 25px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+  margin: 0;
+}
+
+.header__square-pic {
+  position: absolute;
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  top: 64px;
+  right: 0px;
+}
+
+.header__main-illustration {
+  position: absolute;
+  height: 608px;
+  width: 765px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}
